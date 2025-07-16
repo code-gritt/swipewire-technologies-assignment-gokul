@@ -7,6 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import ClientWrapper from '@/components/client-wrapper';
+import NewContentSection from '@/components/new-content-section';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,10 +50,10 @@ const Home: NextPage = () => {
           <h1 className={styles.text}>
             Experience Effortless Banking at Your Fingertips
           </h1>
+          <NewContentSection />
         </div>
 
       </ClientWrapper>
-
     </>
   );
 };
