@@ -8,6 +8,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import ClientWrapper from '@/components/client-wrapper';
 import NewContentSection from '@/components/new-content-section';
+import ThreeSection from '@/components/three-section';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,8 +52,8 @@ const Home: NextPage = () => {
             Experience Effortless Banking at Your Fingertips
           </h1>
           <NewContentSection />
+          <ThreeSection />
         </div>
-
       </ClientWrapper>
     </>
   );

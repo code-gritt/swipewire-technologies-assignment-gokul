@@ -1,13 +1,14 @@
 .container {
+  padding-top: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 200vh;
   background-image: url("/home.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure minimum height */
 }
 
 .text {

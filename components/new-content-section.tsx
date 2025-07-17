@@ -14,7 +14,7 @@ const NewContentSection = () => {
                 start: "top top",
                 end: "+=500",
                 scrub: 1,
-                markers: true,
+                markers: false,
                 pin: true,
             },
         });
